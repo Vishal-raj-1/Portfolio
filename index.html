@@ -5,36 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Marck+Script&display=swap" rel="stylesheet">
-    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="./Images/icon.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Marck+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Vishal</title>
 </head>
 
 <body>
-    <nav id="navbar">
-        <div id="logo"><a href="#home">Vishal</a></div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Navigation Bar -->
+    <div class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 sticky-top" id="navbar">
+        <h5 class="my-0 mr-md-auto ml-md-5"><a href="#home">Vishal</a></h5>
+        <nav class="my-2 my-md-0 mr-md-5">
+            <a class="" href="#about">About</a>
+            <a class="" href="#experience">Experience</a>
+            <a class="" href="#skills">Skills</a>
+            <a class="" href="#projects">Projects</a>
+        </nav>
+    </div>
+    <!-- 
     <section id="home">
         <h1>I am Vishal</h1>
 
         <p>I am a Competitive Coder and Frontend Web Developer. Girl Code It aka GCI is a group of people who firmly
             believe that "Knowledge grows when shared" and is eager to build a healthy coding culture among young
             coders. Being an avid coder, I want to contribute my best to the society!</p>
-    </section>
-    <section id="about">
+    </section> -->
+
+    <!-- <section id="about">
         <div id="image">
             <img src="Images/Me.jpg" alt="">
         </div>
         <div class="About">
             <h2>About Me</h2>
             <p>I am currently a second year student at Netaji Subhas University of Technology
-            and pursuing my B.Tech in Electrical Engineering. I am a Competitive Programmer and Frontend Web Developer.</p>
+                and pursuing my B.Tech in Electrical Engineering. I am a Competitive Programmer and Frontend Web
+                Developer.</p>
         </div>
         <div class="About">
             <h2>Education</h2>
@@ -51,43 +58,108 @@
                 <p>Science and Mathematics <span>•</span> March 2017 <br>Secured 10 CGPA</p>
             </div>
         </div>
-    </section>
+    </section> -->
+
     <section id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li class="Skills"><img src="Images/c.JPG" alt="">C <br> <progress min="0" max="100" value="90"></progress></li>
-            <li class="Skills"><img src="Images/cpp.JPG" alt="">C++ <br> <progress min="0" max="100" value="75"></progress></li>
-            <li class="Skills"><img src="Images/python.JPG" alt="">Python <br> <progress min="0" max="100" value="60"></progress></li>
-            <li class="Skills"><img src="Images/html.JPG" alt="">HTML5 <br> <progress min="0" max="100" value="70"></progress></li>
-            <li class="Skills"><img src="Images/css.JPG" alt="">CSS3 <br> <progress min="0" max="100" value="40"></progress></li>
+            <li class="Skills"><img src="./Images/c.JPG" alt="">C <br> <progress min="0" max="100"
+                    value="90"></progress>
+            </li>
+            <li class="Skills"><img src="./Images/cpp.JPG" alt="">C++ <br> <progress min="0" max="100"
+                    value="75"></progress></li>
+            <li class="Skills"><img src="./Images/python.JPG" alt="">Python <br> <progress min="0" max="100"
+                    value="60"></progress></li>
+            <li class="Skills"><img src="./Images/html.JPG" alt="">HTML5 <br> <progress min="0" max="100"
+                    value="70"></progress></li>
+            <li class="Skills"><img src="./Images/css.JPG" alt="">CSS3 <br> <progress min="0" max="100"
+                    value="40"></progress></li>
         </ul>
     </section>
-    <section id="projects">
-        <h2 class="heading">Projects</h2> <br>
-        <div>
-            <a href="https://github.com/Vishal-raj-1/Online-Meal-Delivery-Website"><img src="Images/website1.PNG" alt="Online-Meal-Delivery-Website"><h3>Meal Delivery Website</h3></a>
-            <p>
-                Lorem ipsum dolor sit amerepellat minima nobis? Est corrupti perferendis eveniet molestiae, repudiandae quia! Nobis cum praesentium ut magnam quos dicta?
-            </p>
+
+    <div class="container-fluid mb-4" id="projects">
+        <h2 class="heading mb-4">Projects</h2>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <div class="card mb-4 p-2 shadow">
+                        <img src="./Images/flipkart.JPG" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Flipkart Homepage Clone</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt, perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-2 mb-3 shadow">
+                        <img src="./Images/GCI.JPG" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Girl Code It Website Frontend</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt, perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-4 p-2 shadow">
+                        <img src="./Images/rock.JPG" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">Rock Paper Scissors Game</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt, perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-2 mb-4 shadow">
+                        <img src="./Images/myonline.JPG" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">My Online Meal Website</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt, perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card p-2 mb-4 shadow">
+                        <img src="./Images/w3newbie.JPG" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">W3 NewBie bootstrap Website</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt, perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </div>
-        <div>
-            <a href="https://github.com/Vishal-raj-1/Web-Development-Tutorials/tree/master/GYM%20Website"><img src="Images/website2.PNG" alt="Gym-website"><h3>Fitness Gym Website</h3></a>
-            <p>
-                Lorem ipsum dolor sit amet consectetur lat minima nobis? Est c molestiae, Nobis facere earum rem cum praesentium ut magnam quos dicta?
-            </p>
-        </div>
-    </section>
-    <footer id="contact">
-        <p>
-            <a href="mailto:rajputvishal33786@gmail.com"><img src="Images/gmail.JPG" alt=""></a>
-            <a href="https://www.linkedin.com/in/vishal-0710061a1"><img alt="Linkedin" src="Images/linkedin.JPG" /></a>
-            <a href="https://github.com/Vishal-raj-1"><img alt="Github" src="Images/github.JPG" /></a>
-            <a href="https://www.hackerrank.com/Vishal_Rajput"><img alt="Hackerrank" src="Images/hackerrank.JPG" /></a>
-            <a href="https://leetcode.com/vishal_rajput/"><img alt="Leetcode" src="Images/leetcode.JPG" /></a>
-            <a href="https://www.hackerearth.com/@Vishal_rajput"><img alt="Hackerearth" src="Images/hackerearth.JPG" /></a>
-           </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid" id="contact">
+        <a href="https://www.linkedin.com/in/vishal-0710061a1" class="ml-auto">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Vishal-raj-1">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:rajputvishal33786@gmail.com">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="#home" title="Back To Top" id="uparrow" class="ml-auto">
+            <i class="fas fa-chevron-circle-up text-white" style="border-radius: 50%; border: 3px solid #525252;"></i>
+        </a>
     </footer>
-    <br>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
 </body>
 
 </html>
