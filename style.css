@@ -133,7 +133,9 @@
 }
 
 /* Projects Section */
-
+#Project .card{
+    height: 40vh;
+}
 
 
 
