@@ -15,7 +15,7 @@
 
 <body>
     <!-- Navigation Bar -->
-    <div class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 sticky-top" id="navbar">
+    <div class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 shadow" id="navbar">
         <h5 class="my-0 mr-md-auto ml-md-5"><a href="#home">Vishal</a></h5>
         <nav class="my-2 my-md-0 mr-md-5">
             <a class="" href="#about">About</a>
@@ -24,15 +24,6 @@
             <a class="" href="#projects">Projects</a>
         </nav>
     </div>
-    <!-- 
-    <section id="home">
-        <h1>I am Vishal</h1>
-
-        <p>I am a Competitive Coder and Frontend Web Developer. Girl Code It aka GCI is a group of people who firmly
-            believe that "Knowledge grows when shared" and is eager to build a healthy coding culture among young
-            coders. Being an avid coder, I want to contribute my best to the society!</p>
-    </section> -->
-
     <!-- <section id="about">
         <div id="image">
             <img src="Images/Me.jpg" alt="">
@@ -60,12 +51,28 @@
         </div>
     </section> -->
 
+    <section class="container mt-4">
+        <div class="row text-center d-flex align-items-center">
+            <div class="col-md-8 pb-5">
+                <h4>Hi, I am</h4>
+                <h1 class="display-3">Vishal</h1>
+                <h5 class="pl-2">
+                    I am a Frontend Web Developer, a Competitive programmer and Open Soucre Enthusiastic.
+                </h5>
+            </div>
+            <div class="col-md-4 my-auto pb-5 rounded-circle">
+                <img class="img-fluid rounded-circle" src="./Images/Me.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
     <div class="container-fluid" id="skills">
         <h2 class="heading mb-4">Skills</h2>
         <div class="container">
             <div class="row row-cols-1 py-4 row-cols-sm-2 row-cols-md-3">
                 <div class="col d-flex">
-                    <img alt="CPP"
+                    <img alt="C"
                         src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png" />
                     <h3>C</h3>
                 </div>
@@ -73,11 +80,6 @@
                     <img alt="CPP"
                         src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" />
                     <h3>C++</h3>
-                </div>
-                <div class="col d-flex">
-                    <img alt="CPP"
-                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-                    <h3>JavaScirpt</h3>
                 </div>
                 <div class="col d-flex">
                     <img alt="Python"
@@ -95,9 +97,9 @@
                     <h3>CSS3</h3>
                 </div>
                 <div class="col d-flex">
-                    <img alt="CSS3"
-                        src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/bootstrap/bootstrap.png" />
-                    <h3>Bootstrap</h3>
+                    <img alt="CPP"
+                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+                    <h3>JavaScirpt</h3>
                 </div>
                 <div class="col d-flex">
                     <img alt="Git"
@@ -108,6 +110,11 @@
                     <img alt="GitHub"
                         src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
                     <h3>Github</h3>
+                </div>
+                <div class="col d-flex">
+                    <img alt="CSS3"
+                        src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/bootstrap/bootstrap.png" />
+                    <h3>Bootstrap</h3>
                 </div>
                 <div class="col d-flex">
                     <img alt="GitHub"
@@ -123,7 +130,7 @@
         </div>
     </div>
 
-
+    <!-- Project Section -->
     <div class="container-fluid mb-4" id="projects">
         <h2 class="heading mb-4">Projects</h2>
         <div class="container">
@@ -134,70 +141,65 @@
                                 class="card-img-top"></a>
                         <div class="card-body">
                             <a href="https://github.com/Vishal-raj-1/Flipkart-Clone">
-                                <h4 class="card-title">Flipkart Homepage Clone</h4>
+                                <h4 class="card-title text-center">Flipkart Homepage Clone</h4>
                             </a>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt,
                                 perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="col">
                     <div class="card p-2 mb-4 shadow">
                         <a href="https://vishal-raj-1.github.io/GCI-Bootstrap/"><img src="./Images/GCI.JPG" alt=""
                                 class="card-img-top"></a>
                         <div class="card-body">
                             <a href="https://github.com/Vishal-raj-1/GCI-Bootstrap">
-                                <h4 class="card-title">Girl Code It Website Frontend</h4>
+                                <h4 class="card-title text-center">Girl Code It Website Frontend</h4>
                             </a>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt,
                                 perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="col">
                     <div class="card mb-4 p-2 shadow">
                         <a href="https://vishal-raj-1.github.io/Rock-Paper-Scissors-Game/"><img src="./Images/rock.JPG"
                                 alt="" class="card-img-top"></a>
                         <div class="card-body">
                             <a href="https://github.com/Vishal-raj-1/Rock-Paper-Scissors-Game">
-                                <h4 class="card-title">Rock Paper Scissors Game</h4>
+                                <h4 class="card-title text-center">Rock Paper Scissors Game</h4>
                             </a>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt,
                                 perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="col">
                     <div class="card p-2 mb-4 shadow">
                         <a href="https://vishal-raj-1.github.io/Online-Meal-Delivery-Website/"><img
                                 src="./Images/myonline.JPG" alt="" class="card-img-top"></a>
                         <div class="card-body">
                             <a href="https://github.com/Vishal-raj-1/Online-Meal-Delivery-Website">
-                                <h4 class="card-title">My Online Meal Website</h4>
+                                <h4 class="card-title text-center">My Online Meal Website</h4>
                             </a>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt,
                                 perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="col">
                     <div class="card p-2 mb-4 shadow">
                         <a href="https://vishal-raj-1.github.io/W3-NewBie-Website/"><img src="./Images/w3newbie.JPG"
                                 alt="" class="card-img-top"></a>
                         <div class="card-body">
                             <a href="https://github.com/Vishal-raj-1/W3-NewBie-Website">
-                                <h4 class="card-title">W3 NewBie bootstrap Website</h4>
+                                <h4 class="card-title text-center">W3 NewBie bootstrap Website</h4>
                             </a>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam ut deserunt,
                                 perspiciatis mollitia reiciendis dolore voluptates rerum. Quod, impedit!</p>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

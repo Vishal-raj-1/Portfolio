@@ -47,17 +47,28 @@
 
 #skills .col{
     padding: .8em;
+    transform: scale(.99);
     transition: ease-in-out 0.3s;
 }
 
 #skills .col:hover{
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.02);
+    transform: scale(1);
     cursor: pointer;
 }
 
 #skills h3{
     padding-left: 6px;
-    /* font-size: 1em; */
+}
+
+/* Projects */
+#projects .card{
+    transform: scale(.98);
+    transition: ease-in-out 0.5s;
+}
+
+#projects .card:hover{
+    transform: scale(1);
 }
 
 /* Contact Section */
@@ -76,6 +87,7 @@
 
 #contact a:hover{
     color: white;
+    transform: scale(1.2);
 }
 
 #uparrow{
