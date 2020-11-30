@@ -16,60 +16,66 @@
 <body>
     <!-- Navigation Bar -->
     <div class="d-flex flex-column flex-md-row align-items-center p-2 px-md-4 shadow" id="navbar">
-        <h5 class="my-0 mr-md-auto ml-md-5"><a href="#home">Vishal</a></h5>
+        <h2 class="my-0 mr-md-auto ml-md-5"><a
+                href="https://drive.google.com/file/d/1XH1DWNZiKffkfIa8L18RL4RxDNTp-kwe/view?usp=drivesdk">Vishal</a>
+        </h2>
         <nav class="my-2 my-md-0 mr-md-5">
-            <a class="" href="#about">About</a>
-            <a class="" href="#experience">Experience</a>
-            <a class="" href="#skills">Skills</a>
-            <a class="" href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#experience">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
         </nav>
     </div>
-    <!-- <section id="about">
-        <div id="image">
-            <img src="Images/Me.jpg" alt="">
-        </div>
-        <div class="About">
-            <h2>About Me</h2>
-            <p>I am currently a second year student at Netaji Subhas University of Technology
-                and pursuing my B.Tech in Electrical Engineering. I am a Competitive Programmer and Frontend Web
-                Developer.</p>
-        </div>
-        <div class="About">
-            <h2>Education</h2>
-            <div>
-                <h3>Netaji Subhas University of Technology</h3>
-                <p>Electrical Engineering <span>•</span> Aug 2023</p>
-            </div>
-            <div>
-                <h3>Rajkiya Pratibha Vikas Vidhyalaya</h3>
-                <p>Physics, Chemistry and Mathematics <span>•</span> March 2019 <br>Secured 96% In PCM</p>
-            </div>
-            <div>
-                <h3>Rajkiya Pratibha Vikas Vidhyalaya</h3>
-                <p>Science and Mathematics <span>•</span> March 2017 <br>Secured 10 CGPA</p>
-            </div>
-        </div>
-    </section> -->
 
-    <section class="container mt-4">
-        <div class="row text-center d-flex align-items-center">
-            <div class="col-md-8 pb-5">
-                <h4>Hi, I am</h4>
-                <h1 class="display-3">Vishal</h1>
-                <h5 class="pl-2">
-                    I am a Frontend Web Developer, a Competitive programmer and Open Soucre Enthusiastic.
-                </h5>
-            </div>
-            <div class="col-md-4 my-auto pb-5 rounded-circle">
-                <img class="img-fluid rounded-circle" src="./Images/Me.jpg">
+    <!-- All Containers -->
+    <div class="container mt-5">
+        <!-- Home -->
+        <div class="container-fluid shadow rounded">
+            <div class="row text-center d-flex align-items-center my-5">
+                <div class="col-md-8 pb-5">
+                    <h4>Hi, I am</h4>
+                    <h1 class="display-3">Vishal</h1>
+                    <h5 class="pl-2">
+                        I am a Frontend Web Developer, a Competitive programmer and an Open Soucre Enthusiast.
+                    </h5>
+                </div>
+                <div class="col-md-4 my-auto pb-5 rounded-circle">
+                    <img class="img-fluid rounded-circle"
+                        src="https://raw.githubusercontent.com/Vishal-raj-1/Porfolio/main/Images/Me.jpg">
+                </div>
             </div>
         </div>
-    </section>
 
-    <!-- Skills Section -->
-    <div class="container-fluid" id="skills">
-        <h2 class="heading mb-4">Skills</h2>
-        <div class="container">
+        <!-- About Section -->
+        <div class="container-fluid mb-5 pt-md-5 shadow rounded" id="about">
+            <h2 class="heading mb-5">About Me</h2>
+            <p>I am currently a second year student at Netaji Subhas University of Technology. I am a Competitive
+                Programmer and Frontend Web Developer and an open-source enthusiast. I'm deeply passionate about
+                software development &amp;
+                innovations. I believe that to be successful in life, one needs to be obsessive with their dreams
+                and
+                keep working towards them.
+            </p>
+            <a href="https://drive.google.com/file/d/1XH1DWNZiKffkfIa8L18RL4RxDNTp-kwe/view?usp=drivesdk" class="btn btn-light btn-border shadow mb-md-5">Resume</a>
+        </div>
+
+        <div class="container-fluid mb-5 pt-md-5 shadow rounded">
+            <h2 class="heading mb-5">Education</h2>
+            <div class="container">
+                <h3 class="row font-weight-bold">Netaji Subhas University of Technology</h3>
+                <p class="row">Bachelor of Technology in Electrical Engineering</p>
+                <p class="row">CGPA : 8.68/10</p>
+            </div>
+            <div class="container pb-md-5">
+                <h3 class="row font-weight-bold">Rajkiya Pratibha Vikas Vidhyalaya</h3>
+                <p class="row">Senior Seconary(PCM)</p>
+                <p class="row">Secured 94%</p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="container-fluid mb-5 pt-md-5 shadow rounded" id="skills">
+            <h2 class="heading mb-5">Skills</h2>
             <div class="row row-cols-1 py-4 row-cols-sm-2 row-cols-md-3">
                 <div class="col d-flex">
                     <img alt="C"
@@ -128,15 +134,13 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Project Section -->
-    <div class="container-fluid mb-4" id="projects">
-        <h2 class="heading mb-4">Projects</h2>
-        <div class="container">
+        <!-- Project Section -->
+        <div class="container-fluid mb-5 pt-md-5 shadow rounded" id="projects">
+            <h2 class="heading mb-5">Projects</h2>
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col">
-                    <div class="card mb-4 p-2 shadow">
+                    <div class="card mb-4 p-2 shadow-sm">
                         <a href="https://vishal-raj-1.github.io/Flipkart-Clone/"><img src="./Images/flipkart.JPG" alt=""
                                 class="card-img-top"></a>
                         <div class="card-body">
@@ -149,7 +153,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card p-2 mb-4 shadow">
+                    <div class="card p-2 mb-4 shadow-sm">
                         <a href="https://vishal-raj-1.github.io/GCI-Bootstrap/"><img src="./Images/GCI.JPG" alt=""
                                 class="card-img-top"></a>
                         <div class="card-body">
@@ -162,7 +166,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card mb-4 p-2 shadow">
+                    <div class="card mb-4 p-2 shadow-sm">
                         <a href="https://vishal-raj-1.github.io/Rock-Paper-Scissors-Game/"><img src="./Images/rock.JPG"
                                 alt="" class="card-img-top"></a>
                         <div class="card-body">
@@ -175,7 +179,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card p-2 mb-4 shadow">
+                    <div class="card p-2 mb-4 shadow-sm">
                         <a href="https://vishal-raj-1.github.io/Online-Meal-Delivery-Website/"><img
                                 src="./Images/myonline.JPG" alt="" class="card-img-top"></a>
                         <div class="card-body">
@@ -188,7 +192,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card p-2 mb-4 shadow">
+                    <div class="card p-2 mb-4 shadow-sm">
                         <a href="https://vishal-raj-1.github.io/W3-NewBie-Website/"><img src="./Images/w3newbie.JPG"
                                 alt="" class="card-img-top"></a>
                         <div class="card-body">
@@ -202,6 +206,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 
     <!-- Footer -->

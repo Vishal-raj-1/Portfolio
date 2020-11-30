@@ -12,16 +12,15 @@
     background-color: rgb(0 27 71);
 }
 
-#navbar h5{
+#navbar h2{
     color: rgb(180, 212, 238);
-    font-size: 1.9rem;
     font-weight: bolder;
     cursor: pointer;
     transform: scale(.98);
     padding-top: .2em;
 }
 
-#navbar h5:hover{
+#navbar h2:hover{
     transform: scale(1.1);
 }
 
@@ -38,6 +37,8 @@
     text-decoration: none;
     color: white;
 }
+
+/* About */
 
 /* Skills */
 #skills img{
@@ -63,14 +64,17 @@
 
 /* Projects */
 #projects .card{
-    transform: scale(.98);
-    transition: ease-in-out 0.5s;
+    transform: scale(.96);
+    transition: ease-in-out .6s;
 }
 
 #projects .card:hover{
     transform: scale(1);
 }
 
+#projects a{
+    text-decoration: none;
+}
 /* Contact Section */
 #contact{
     background-color: #000;
@@ -97,10 +101,16 @@
 
 a#uparrow{
     padding: 1rem 0rem;
+    transform: scale(.99);
+    transition: ease-in-out .6s;
 }
 
 #uparrow:hover{
     transform: scale(1.1);
+}
+
+footer{
+    transform: scale(1) !important;
 }
 
 /* Utility Classes */
@@ -108,4 +118,21 @@ a#uparrow{
     display: inline-block;
     border-bottom: 4px solid skyblue;
     font-size: 40px;
+}
+
+.container-fluid{
+    transform: scale(.99);
+    transition: ease-in-out 1s;
+}
+
+.container-fluid:hover{
+    transform: scale(1.01);
+}
+
+/* Media Query */
+@media screen and (max-width: 422px){
+    #navbar nav a{
+        font-size: 1.05rem;
+        padding: .3em .2em;
+    }
 }
